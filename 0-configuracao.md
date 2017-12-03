@@ -16,7 +16,18 @@ Ou
 sudo apt install php7.0 apache2 mysql-server libapache2-mod-php7.0 php7.0-mysql
 ```
   
-* Ou também usando o Docker.
+### Docker
+  
+* [Usando um servidor lemp](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-lemp).  
+     
+* Ou baixando a imagem do Php no Docker diretamente:  
+    
+`docker run -it --rm --name php-1 php:7 bash`  
+   
+Verifique a versão do PHP na linha de comando:  
+   
+`php -version`  
+  
 
 
 ### Referências
